@@ -1,1 +1,1 @@
-aws s3 sync ./llefri/ s3://llefri.com --acl public-read  --exclude *.swp
+aws s3 sync ./ s3://llefri.com --acl public-read  --exclude "*.swp" --exclude ".git/*"

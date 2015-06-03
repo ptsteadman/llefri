@@ -5,33 +5,53 @@
 <link rel="stylesheet" href="../stylesheets/style.css">
 <script src="../js/jquery-1.11.3.min.js"></script>
 <script src="../js/app.js"></script>
+<style>
+  .credits, .about {
+    display: none;
+  } 
+  
+</style>
 </head>
 <body>
 <div class="container">
   <h1><a href="#">1.000 pictures in a Day</a></h1>
   <br>
   <br>
-  <div class="photo-menu">
-    <ul>
-      <li>I.</li>
-      <li>II.</li>
-      <li>III.</li>
-      <li>IV.</li>
-      <li>V.</li>
-      <li>VI.</li>
-      <li>VII.</li>
-      <li>VIII.</li>
-      <li>IX.</li>
-      <li>X.</li>
-    </ul>
+  <ul class="photo-menu">
+    <li>I.</li>
+    <li>II.</li>
+    <li>III.</li>
+    <li>IV.</li>
+    <li>V.</li>
+    <li>VI.</li>
+    <li>VII.</li>
+    <li>VIII.</li>
+    <li>IX.</li>
+    <li>X.</li>
+  </ul>
+  <br>
+  <div class="content">
+    <div class="photos">
+    </div>
+    <div class="about">
+      <center><p>About the project.</p></center>
+    </div>
+    <div class="credits">
+      <center><p>Credits for the project.</p></center>
+    </div>
   </div>
 </div>
 <div class="footer">
   <ul class="footer-menu">
-    <li>About</li>
-    <li>Credits</li>
-    <li>Contact</li>
+    <li id="about">About</li>
+    <li id="credits">Credits</li>
+    <a href="../contact.html"><li>Contact</li></a>
   </ul>
+</div>
+<div class="home-button">
+  <a href="../index.html">
+    <img src="../home.png">
+  </a>
 </div>
 </body>
 </html>
